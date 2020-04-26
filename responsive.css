@@ -293,6 +293,46 @@
         height: 200px;
         margin: 0 auto;
     }
+    
+    /* Key-Traits Section */ 
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+   
+   .heading h2 {
+       padding: 20px 0px;
+       font-size: 26px;
+   }
+   
+   .trait-icon p {
+       margin-bottom: 15px;
+       font-size: 16px;
+   }
+   
+   .trait-icon img {
+       max-width: 60%;
+       height: auto;
+   }
+
+   .text-contents {
+       font-size: 12px;
+       line-height: 1.5;
+   }
+   
+   .traits {
+       display: flex;
+   }
+   
+   .trait {
+       flex: auto;
+       margin: 0 auto;
+       width: 100%;
+       padding: 20px;
+   }
+   .key-traits {
+       padding-bottom: 40px;
+   }  
 
     /* Experience Section */
     .exp-img {
