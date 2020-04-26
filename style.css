@@ -419,10 +419,10 @@ footer p {
 
 /* menu icon style */
 
-.menu-icon {
+span .menu-icon {
+    display: none;
     color: #6C63FF;
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    display: none;
 }
