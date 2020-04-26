@@ -125,6 +125,38 @@
         height: 200px;
         margin: 0 auto;
     }
+    
+    /* Tablet Key-Traits */   
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+   
+   .heading h2 {
+       padding: 60px 0px;
+       font-size: 26px;
+   }
+      
+   .trait-icon p {
+       margin-bottom: 30px;
+       font-size: 20px;
+   }
+
+   .trait-icon img {
+       max-width: 80%;
+       height: auto;
+   }   
+   
+   .text-contents {
+       font-size: 12px;
+       margin-top: 15px;
+       font-weight: normal;
+       line-height: 1.5;
+   }
+      
+   .trait {
+       padding:20px
+   }
 
     /* Tablet Experience */
     .exp-text h3 {
