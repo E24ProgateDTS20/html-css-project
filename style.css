@@ -236,6 +236,60 @@ header {
     color: #b3aeb5;
 }
 
+/* key traits section */
+
+ .key-traits {
+     background-color: whitesmoke;
+ }
+
+.container {
+     margin: 0 auto;
+     padding-left: 60px;
+     padding-right: 60px;
+ }
+
+.heading h2 {
+    padding: 80px 0px;
+    color: #6C63FF;
+    font-size: 36px;
+}
+
+.trait-icon p{
+    margin-bottom: 40px;
+    color: #616161;
+    font-size: 24px;
+}
+
+.text-contents {
+    color: #616161;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: normal;
+    line-height: 1.7;
+}
+
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trait {
+    flex: auto;
+    width: 25%;
+    padding:30px
+}
+
+.key-traits {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.trait:hover {
+    box-shadow: 0px 2px 20px rgb(196, 196, 196);
+    background-color: white;
+}
+
 /* experience section */
 
 .exp-text h3 {
