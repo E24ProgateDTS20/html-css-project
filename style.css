@@ -1,0 +1,428 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    /* background-color: #26d0c9; */
+    background-color: white;
+    color: #000;
+    height: 90px;
+    width: 100%;
+    box-shadow: 0.5px 0.5px 5px #6C63FF;
+    z-index: 10;
+    position: fixed;
+}
+
+.nav-logo {
+    float: left;
+    font-size: 16px;
+    padding: 20px 80px;
+}
+
+.nav-logo span {
+    font-size: 36px;
+    color: #6C63FF;
+}
+
+.nav-list {
+    float: right;
+    padding-right: 80px;
+}
+
+.nav-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-list li a:hover {
+    color: #6C63FF;
+}
+
+/* banner section */
+
+.banner-text h3 {
+    color: #6C63FF;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.banner-text h1 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.banner-text p {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.banner {
+    padding: 210px 0 90px 0;
+    width: 100%;
+    display: flex;
+}
+
+.banner-text {
+    padding-left: 80px;
+    flex: 50%;
+}
+
+.banner-img {
+    flex: 50%;
+    padding-right: 80px;
+}
+
+.banner-img img {
+    width: 100%;
+    background-size: cover;
+}
+
+.banner-text a {
+    text-decoration: none;
+    background-color: #6C63FF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.banner-text a:hover {
+    opacity: 1;
+}
+
+/* about us section */
+
+.about {
+    /* padding: 120px 0; */
+    margin: 150px 0;
+    width: 100%;
+    display: flex;
+    height: 450px;
+}
+
+.about-img {
+    padding-left: 60px;
+    flex: 50%;
+}
+
+.about-img img {
+    width: 100%;
+    background-size: cover;
+}
+
+.about-text {
+    flex: 50%;
+    margin: 30px 100px 0 40px;
+}
+
+.about-text h3 {
+    color: #6C63FF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.about-text a {
+    text-decoration: none;
+    border: 1px solid #6C63FF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #6C63FF;
+    font-size: 14px;
+}
+
+.about-text a:hover {
+    text-decoration: none;
+    background-color: #6C63FF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* team section */
+
+.team {
+    height: 580px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading-team {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading-team h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.heading-team p {
+    margin-top: 10px;
+}
+
+.cards {
+    width: 90%;
+    /* margin: 0 30px; */
+    margin: 0 auto;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+}
+
+
+/* .card-img img {
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+} */
+
+.card-img {
+    position: relative;
+    background-color: #fff;
+    width: 80%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-img:hover {
+    box-shadow: 0px 2px 20px rgb(196, 196, 196);
+}
+
+
+.card p {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #b3aeb5;
+}
+
+/* experience section */
+
+.exp-text h3 {
+    color: #6C63FF;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.exp-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.exp-text p {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.exp-text li {
+    color: #000;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.exp-text li span {
+    color: #6C63FF;
+}
+
+.exp-text ul {
+    margin-bottom: 35px;
+}
+
+.exp {
+    padding: 210px 0 90px 0;
+    width: 100%;
+    display: flex;
+}
+
+.exp-text {
+    padding-left: 80px;
+    flex: 50%;
+}
+
+.exp-img {
+    flex: 50%;
+    padding-right: 80px;
+}
+
+.exp-img img {
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.exp-text a {
+    text-decoration: none;
+    border: 1px solid #6C63FF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #6C63FF;
+    font-size: 14px;
+}
+
+.exp-text a:hover {
+    text-decoration: none;
+    background-color: #6C63FF;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* contact section */
+
+.contact {
+    width: 100%;
+    height: 700px;
+    padding-top: 180px;
+}
+
+.contact-txt {
+    text-align: center;
+}
+
+.contact-txt h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-content {
+    margin-top: 25px;
+    display: flex;
+}
+
+.map {
+    flex: 40%;
+    margin-left: 80px;
+    height: 450px;
+    /* background-color: teal; */
+    margin-top: 20px;
+}
+
+.form-contact {
+    flex: 60%;
+    display: block;
+}
+
+.form-contact .input {
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.input input {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 0;
+    background-color: #f7f7f7;
+}
+
+.input textarea {
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 0;
+    background-color: #f7f7f7;
+}
+
+.input p {
+    margin-bottom: 10px;
+}
+
+.input p span {
+    color: red;
+}
+
+.btn-submit {
+    padding: 15px 65px;
+    border: 0;
+    background-color: #6C63FF;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+    /* border-radius: 5px; */
+    letter-spacing: 1px;
+}
+
+.btn-submit:hover {
+    opacity: 1;
+}
+
+
+
+
+
+/* footer section */
+
+footer {
+    padding: 20px 0 15px 80px;
+    background-color: #000;
+}
+
+footer h4 {
+    font-size: 20px;
+    color: white;
+}
+
+footer h4 span {
+    color: #6C63FF;
+    font-weight: bold;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+/* menu icon style */
+
+.menu-icon {
+    color: #6C63FF;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
