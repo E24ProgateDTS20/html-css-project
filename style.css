@@ -41,6 +41,7 @@ header {
 .nav-list li {
     float: left;
     padding: 33px 20px;
+    font-size: 20px;
 }
 
 .nav-list li a {
@@ -68,7 +69,8 @@ header {
 
 .banner-text p {
     margin-bottom: 50px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 1.7;
 }
 
 .banner {
@@ -144,7 +146,8 @@ header {
 
 .about-text p {
     margin-bottom: 50px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 1.7;
 }
 
 .about-text a {
@@ -187,6 +190,7 @@ header {
 
 .heading-team p {
     margin-top: 10px;
+    font-size: 20px;
 }
 
 .cards {
@@ -254,7 +258,7 @@ header {
     font-size: 36px;
 }
 
-.trait-icon p{
+.trait-icon p {
     margin-bottom: 40px;
     color: #616161;
     font-size: 24px;
@@ -306,7 +310,10 @@ header {
 
 .exp-text p {
     margin-bottom: 50px;
+    margin-right: 60px;
     line-height: 25px;
+    font-size: 20px;
+    line-height: 1.7;
 }
 
 .exp-text li {
@@ -344,8 +351,6 @@ header {
     width: 100%;
     background-size: cover;
 }
-
-
 
 .exp-text a {
     text-decoration: none;
@@ -431,6 +436,7 @@ header {
 }
 
 .btn-submit {
+    width: 500px;
     padding: 15px 65px;
     border: 0;
     background-color: #6C63FF;
