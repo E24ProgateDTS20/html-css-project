@@ -21,8 +21,8 @@ header {
     z-index: 10;
     position: fixed;
     animation-name: change-background-color;
-    animation-duration: 8s;
-    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 
 .nav-logo {
