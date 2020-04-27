@@ -21,8 +21,8 @@ header {
     z-index: 10;
     position: fixed;
     animation-name: change-background-color;
-    animation-duration: 10s;
-    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-delay: 2s;
 }
 
 .nav-logo {
@@ -490,8 +490,8 @@ footer p {
 }
 
 @keyframes change-background-color {
-    0%   {background-color: #6C63FF;}
-    25%  {background-color: blueviolet;}
-    50%  {background-color: turquoise;}
+    0% {background-color: #6C63FF;}
+    25% {background-color: blueviolet;}
+    50% {background-color: turquoise;}
     100% {background-color: white;}
-  }
+}
