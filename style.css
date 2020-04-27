@@ -20,6 +20,9 @@ header {
     box-shadow: 0.5px 0.5px 5px #6C63FF;
     z-index: 10;
     position: fixed;
+    animation-name: change-background-color;
+    animation-duration: 10s;
+    animation-delay: 1s;
 }
 
 .nav-logo {
@@ -485,3 +488,10 @@ footer p {
 .menu-icon {
     display: none;
 }
+
+@keyframes change-background-color {
+    0%   {background-color: #6C63FF;}
+    25%  {background-color: blueviolet;}
+    50%  {background-color: turquoise;}
+    100% {background-color: white;}
+  }
