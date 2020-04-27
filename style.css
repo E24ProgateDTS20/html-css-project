@@ -21,8 +21,8 @@ header {
     z-index: 10;
     position: fixed;
     animation-name: change-background-color;
-    animation-duration: 10s;
-    animation-delay: 1s;
+    animation-duration: 8s;
+    animation-delay: 2s;
 }
 
 .nav-logo {
@@ -351,7 +351,8 @@ header {
 
 .exp-img {
     flex: 50%;
-    padding-right: 80px;
+    padding: 0 80px;
+    
 }
 
 .exp-img img {
@@ -456,10 +457,6 @@ header {
 .btn-submit:hover {
     opacity: 1;
 }
-
-
-
-
 
 /* footer section */
 
