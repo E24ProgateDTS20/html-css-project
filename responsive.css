@@ -33,7 +33,7 @@
     .banner-text p {
         margin-bottom: 40px;
         line-height: 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .banner-text {
@@ -84,7 +84,7 @@
     .about-text p {
         margin-bottom: 35px;
         line-height: 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .about-text a {
@@ -148,7 +148,7 @@
    }   
    
    .text-contents {
-       font-size: 12px;
+       font-size: 14px;
        margin-top: 15px;
        font-weight: normal;
        line-height: 1.5;
@@ -172,7 +172,7 @@
     .exp-text p {
         margin-bottom: 40px;
         line-height: 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .exp-text {
@@ -273,7 +273,7 @@
     }
 
     .heading-team p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .cards {
@@ -316,7 +316,7 @@
    }
 
    .text-contents {
-       font-size: 12px;
+       font-size: 14px;
        line-height: 1.5;
    }
    
