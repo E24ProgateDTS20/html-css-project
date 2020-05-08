@@ -264,8 +264,8 @@
     }
     
     .nav-list.responsive li a {
-        
-        display: block;
+        /* block */
+        display: inline;
         text-align: left;
     }
  /*
