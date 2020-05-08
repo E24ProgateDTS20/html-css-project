@@ -71,35 +71,7 @@ ul.nav-list li a:hover {
 }
 
 /* cek */
-
-ulnav-list li.icon {display: none;}
-
-@media screen and (max-width:680px) {
-  ul.nav-list li:not(:first-child) {display: none;}
-  ul.nav-list li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width:680px) {
-  ul.nav-list.responsive {position: relative;}
-  ul.nav-list.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.nav-list.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.nav-list.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-
-
+ul.nav-list li.icon {display: none;}
 
 /* banner section */
 
