@@ -241,8 +241,17 @@
 
 
 /* Untuk Smartphone */
-@media screen and (max-width:680px) {
-    /* relative */
+
+@media all and (max-width: 670px) {
+    /*cek */
+    .nav-list li:not {
+        display: none;
+    }
+    .nav-list li.icon {
+        float: right;
+        display: inline-block;
+    }    
+     /* relative */
     .nav-list.responsive {position:fixed ;}
     .nav-list.responsive li.icon {
         position: absolute;
@@ -258,17 +267,6 @@
         display: block;
         text-align: left;
     }
-}
-@media all and (max-width: 670px) {
-    /*cek */
-    .nav-list li:not {
-        display: none;
-    }
-    .nav-list li.icon {
-        float: right;
-        display: inline-block;
-    }    
-    
   
     .nav-list {
         display: none;
