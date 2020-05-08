@@ -249,17 +249,18 @@
     }    
 }
 @media screen and (max-width: 600px) {
-    .nav-list.responsive {position: relative;}
-    .nav-list.responsive .icon {
+    .nav-list.responsive li{position: relative;}
+    .nav-list.responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+    /*
     .nav-list.responsive li {
         float: none;
         display: block;
     }
-    
+    */
     .nav-list.responsive li a {
         float :none;
         display: block;
