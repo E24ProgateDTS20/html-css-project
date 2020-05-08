@@ -40,10 +40,10 @@ header {
     float: right;
     padding-right: 80px;
     
-    /* cek */
+    /* cek 
     list-style-type: none;
     margin: 0;
-    overflow: hidden;
+    overflow: hidden;*/
     /*background-color: #333; */
 }
 
@@ -57,13 +57,14 @@ header {
     text-decoration: none;
     color: #000;
     
-    /* cek */
+    /* cek 
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    */
 }
 
 .nav-list li a:hover {
