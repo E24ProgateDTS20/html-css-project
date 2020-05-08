@@ -255,12 +255,6 @@
         right: 0;
         top: 0;
     }
-    .nav-list.responsive {position: relative;}
-    .nav-list.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
     
     .nav-list.responsive li {
         float: none;
