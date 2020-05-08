@@ -241,15 +241,9 @@
 
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
-    /*cek */
-    .nav-list li:not(:first-child) {display: none;}
-    .nav-list li.icon {
-        float: right;
-        display: inline-block;
-    }    
-    
-    .nav-list.responsive {position: relative;}
+@media screen and (max-width:680px) {
+    /* relative */
+    .nav-list.responsive {position:fixed ;}
     .nav-list.responsive li.icon {
         position: absolute;
         right: 0;
@@ -264,9 +258,18 @@
         display: block;
         text-align: left;
     }
+}
+@media all and (max-width: 670px) {
+    /*cek */
+    .nav-list li:not {
+        display: none;
+    }
+    .nav-list li.icon {
+        float: right;
+        display: inline-block;
+    }    
     
-    /* cek */
- /*   
+  
     .nav-list {
         display: none;
     }
@@ -274,7 +277,7 @@
     .menu-icon {
         display: block;
     }
-*/
+
     /* Tablet Banner */
     .banner-img {
         display: none;
