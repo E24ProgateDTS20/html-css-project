@@ -242,10 +242,8 @@
 
 /* Untuk Smartphone */
 @media screen and (max-width: 600px){
-    .nav-list li a:not (:first-child)  {
-        display: none;
-    }
-    .nav-list li.icon {
+    .nav-list li a:not(:first-child) {display: none;}
+    .nav-list li a.icon {
         float: right;
         display: block;
     }    
