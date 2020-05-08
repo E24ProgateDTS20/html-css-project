@@ -36,7 +36,7 @@ header {
     color: #6C63FF;
 }
 
-ul.nav-list {
+.nav-list {
     float: right;
     padding-right: 80px;
     
@@ -47,13 +47,13 @@ ul.nav-list {
     /*background-color: #333; */
 }
 
-ul.nav-list li {
+.nav-list li {
     float: left;
     padding: 33px 20px;
     font-size: 20px;
 }
 
-ul.nav-list li a {
+.nav-list li a {
     text-decoration: none;
     color: #000;
     
@@ -66,12 +66,12 @@ ul.nav-list li a {
     font-size: 17px;
 }
 
-ul.nav-list li a:hover {
+.nav-list li a:hover {
     color: #6C63FF;
 }
 
 /* cek */
-ul.nav-list li.icon {display: none;}
+.nav-list li.icon {display: none;}
 
 /* banner section */
 
