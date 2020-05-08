@@ -39,12 +39,6 @@ header {
 .nav-list {
     float: right;
     padding-right: 80px;
-    
-    /* cek 
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;*/
-    /*background-color: #333; */
 }
 
 .nav-list li {
@@ -56,15 +50,6 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: #000;
-    
-    /* cek 
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-    */
 }
 
 .nav-list li a:hover {
