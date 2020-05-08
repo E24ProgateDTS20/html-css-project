@@ -251,7 +251,7 @@
         float: right;
         display: inline-block;
     }    
-     /* relative */
+    
     .nav-list.responsive {position:relative ;}
     .nav-list.responsive li.icon {
         position: absolute;
@@ -264,14 +264,15 @@
     }
     
     .nav-list.responsive li a {
-        display: block;
+        /* block */
+        display: inline;
         text-align: left;
     }
-  /*
+ 
     .nav-list {
         display: none;
     }
-
+ /*
     .menu-icon {
         display: block;
     }
