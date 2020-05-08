@@ -243,24 +243,24 @@
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
     /*cek */
-    ul.nav-list li:not(:first-child) {display: none;}
-    ul.nav-list li.icon {
+    .nav-list li:not(:first-child) {display: none;}
+    .nav-list li.icon {
         float: right;
         display: inline-block;
     }    
     
-    ul.nav-list.responsive {position: relative;}
-    ul.nav-list.responsive li.icon {
+    .nav-list.responsive {position: relative;}
+    .nav-list.responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-    ul.nav-list.responsive li {
+    .nav-list.responsive li {
         float: none;
         display: inline;
     }
     
-    ul.nav-list.responsive li a {
+    .nav-list.responsive li a {
         display: block;
         text-align: left;
     }
